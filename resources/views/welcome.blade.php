@@ -1,9 +1,3 @@
-<x-layout>
+<x-layout title="Home">
     <h1>hello world</h1>
-
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact</a>
-    </nav>
 </x-layout>
