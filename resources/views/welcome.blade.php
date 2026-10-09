@@ -1,3 +1,16 @@
 <x-layout title="Home">
-    {{$greeting}}
+    <p>
+        {{ $greeting }} {{ $person }}
+        <!-- @dump($greeting)         -->
+         <!-- @if($greeting)
+         <p> we have greeting man {{ $greeting }}</p>
+         @endif -->
+
+         <!-- 
+         @unless
+         @foreach
+         @while
+          -->
+
+    </p>
 </x-layout>
