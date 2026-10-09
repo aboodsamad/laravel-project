@@ -6,6 +6,11 @@ Route::get('/', function () {
     return view('welcome', [
         'greeting' => 'hello World!',
         'person' => request('person' , 'abdo'),
+        'tasks' => [
+            'first task',
+            'second task',
+            'third task',
+        ]
     ]);
 });
 
