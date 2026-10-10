@@ -7,4 +7,5 @@
         @endforeach
 
     </p>
+    
 </x-layout>
