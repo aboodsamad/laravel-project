@@ -10,8 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-gray-900">
-    <h1>LAYOUT WORK</h1>
+<body class="bg-gray-900 p-6 max-w-xl mx-auto">
     {{ $slot }}
 </body>
 
