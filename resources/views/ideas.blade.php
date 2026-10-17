@@ -12,6 +12,18 @@
             <button type="submit">save</button>
         </div>
     </form>
+
+    @if($ideas)
+    <div class="mt-6 text-white">
+        <h2 class="font-bold">Your Ideas</h2>
+
+        <ul>
+            @foreach($ideas as $idea)
+            <li class="text-sm">{{$idea}}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
 </x-layout>
 
 
