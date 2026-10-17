@@ -1,45 +1,19 @@
-@props ([
-'title' => 'laracasts'
-])
+@props(['title' => 'Forms'])
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full bg-gray-900">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title  ?? "the project" }}</title>
+    <title>{{ $title }}</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<style>
-    nav>a {
-        color: blue;
-    }
-
-    .max-w-400 {
-        max-width: 400px;
-        margin: auto;
-    }
-
-    .card {
-        background: #e3e3e3;
-        padding: 1rem;
-        text-align: center;
-    }
-</style>
-
-<body>
-
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact</a>
-    </nav>
-
-    <main>
-        {{$slot}}
-    </main>
-
+<body class="bg-gray-900">
+    <h1>LAYOUT WORK</h1>
+    {{ $slot }}
 </body>
 
 </html>
+
