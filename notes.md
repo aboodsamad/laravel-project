@@ -7,6 +7,7 @@
          @unless
          @foreach
          @while
+         @forelse
           -->
 
         @foreach ($tasks ?? [] as $t)
