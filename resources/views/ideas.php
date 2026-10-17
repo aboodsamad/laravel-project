@@ -1,4 +1,8 @@
-<x-layout title="Home">
+
+
+
+
+<!-- <x-layout title="Home">
     <p>
         {{ $greeting }} {{ $person }}
         @foreach ($tasks ?? [] as $t)
@@ -8,4 +12,4 @@
 
     </p>
     
-</x-layout>
+</x-layout> -->
