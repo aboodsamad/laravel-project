@@ -6,3 +6,8 @@ Route::get('/', function () {
     return view('ideas');
 });
 
+
+Route::post('/ideas', function () {
+    dd('hello!');
+});
+

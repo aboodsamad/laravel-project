@@ -1,5 +1,5 @@
 <x-layout>
-    <form action="" method="POST">
+    <form action="/ideas" method="POST">
         <div class="col-span-full">
             <label for="ideas" class="block text-sm/6 font-medium text-white">New Ideas</label>
             <div class="mt-2">
@@ -7,7 +7,9 @@
             </div>
             <p class="mt-3 text-sm/6 text-gray-400">have any ideas you wanna save for later?</p>
         </div>
-
+        <div class="mt-6 flex items-center justify-end gap-x-6">
+            <button type="submit">save</button>
+        </div>
     </form>
 </x-layout>
 
