@@ -8,7 +8,7 @@ Route::get('/', function () {
 
 
 Route::post('/ideas', function () {
-    dd('hello!');
+    dd(request() -> all());
 });
 
 

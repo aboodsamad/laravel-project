@@ -1,5 +1,6 @@
 <x-layout>
     <form action="/ideas" method="POST">
+        @csrf
         <div class="col-span-full">
             <label for="ideas" class="block text-sm/6 font-medium text-white">New Ideas</label>
             <div class="mt-2">
@@ -12,4 +13,3 @@
         </div>
     </form>
 </x-layout>
-
